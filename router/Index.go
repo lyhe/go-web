@@ -6,5 +6,5 @@ import (
 )
 
 func Index(c *gin.Context) {
-	c.HTML(http.StatusOK, "index.tmpl", gin.H{})
+	c.HTML(http.StatusOK, "home/index.tmpl", gin.H{})
 }
